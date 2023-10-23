@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@1,400;1,700;1,800&display=swap");
+
+/*
+* {
+  padding: 0;
+  margin: 0;
+}
+*/
+
+body {
+  background: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.25); /*Add me shadow */
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto; /*throw my elements in the centre place*/
+}
+
+#info-inside {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+/*
+.about-me {
+  background: red;
+}
+
+.my-portfolio {
+  background: green;
+  padding: 15px 20px 25px 30px;
+  margin: 5px;
+
+  border: 5px solid red;
+}
+*/
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-yellow {
+  background: rgb(248, 248, 164);
+}
+
+.bg-red {
+  background: rgb(248, 199, 164);
+}
+
+.bg-pink {
+  background: rgb(248, 164, 164);
+}
+
+.bg-purpule {
+  background: rgb(248, 164, 195);
+}
